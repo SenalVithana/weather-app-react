@@ -51,7 +51,7 @@ function App() {
             type="text" />
         </div><div className="top">
             <div className="location">
-              <p className="name">{data.name}</p>
+              <p className="name">{data.name}, {data.sys.country}</p>
             </div>
             <div className="temp">
               {data.main ? <h1>{data.main.temp}°F</h1> : null}
