@@ -58,7 +58,6 @@ function App() {
             </div>
             <div className="description">
               {data.weather ? <p>{data.weather[0].main}</p> : null}
-              <p></p>
             </div>
           </div><div className="bottom">
               <div className="feels">
